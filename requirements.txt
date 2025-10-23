@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+json
+pickle
+sckit-learn
+requests
+numpy
+pandas
+matplotlib
+seaborn
