@@ -9,6 +9,7 @@ Chạy lệnh sau:
 - Tải môi trường: **brew install python@3.13**
 - Tạo môi trường: **python3 -m venv ml-env** (ml-env là tên môi trường bạn có thể đặt tên khác cũng được)
 - Kích hoạt môi trường: **source ml-env/bin/activate**
+- Bạn tải tất cả thư viện mình để sẵn trong file requirements.txt : pip install -r requirements.txt
 - Sau đó chạy server Uvicorn: uvicorn ml_api:app
   + Sau khi chạy xong nó sẽ xuất hiện: URL
 - Copy URL đó thay vào URL trong file api_implementation.py 
