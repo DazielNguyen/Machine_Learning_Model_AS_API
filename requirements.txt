@@ -2,11 +2,11 @@ fastapi
 uvicorn
 pydantic
 sqlalchemy
-json
-pickle
-sckit-learn
+joblib
+scikit-learn
 requests
 numpy
 pandas
 matplotlib
 seaborn
+pypi-json
