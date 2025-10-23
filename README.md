@@ -14,5 +14,10 @@ Chạy lệnh sau:
 - Copy URL đó thay vào URL trong file api_implementation.py 
 - Trong file này: **api_implementation.py**
   + Bạn có thế thay đổi số liệu rồi chạy hết file thì nó sẽ trả về kết quả bạn có bị tiểu đường hay không.
-
-
+### Mình tham khảo và học từ Video sau:
+[https://www.youtube.com/watch?v=EUWLdW_i0EQ&list=PLfFghEzKVmjuCMQqnONUX6N72RoJq4MSY&index=2]
+Troubleshooting của mình trong video sau: 
+- Trong video sử dụng python3.8 -> Phiên bản này đã dừng và không cung cấp tải 
+- Vì trong Python3.8 thì bạn mới dùng được Pickle5 (Pickle5 chỉ dùng được cho phiên bản dưới 3.8)
+- Mình đã thử tải phiên bản khác thấp hơn nhưng nó sẽ bị lỗi Numpy (No module named 'numpy._core')
+  + Mình đã thay thế Pickle5 bằng joblib và có thể load được model.
